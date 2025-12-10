@@ -118,4 +118,4 @@ if __name__ == '__main__':
     run(15000, is_training=True, render=False)
 
     #testing
-    run(10, is_training=False, render=True, show_result = False)
+    run(10, is_training=False, render=False, show_result = False)
