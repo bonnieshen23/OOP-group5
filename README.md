@@ -56,9 +56,9 @@ python oop_project_env.py
 wait for revising
 
 ## Contribution list
-part2: 張翊萱
-part3: 鄭心明、沈柏伶
-readme: 沈柏伶
-UML diagrams: 沈柏伶
-reflection: 沈柏伶、鄭心明、張翊萱
-demo slides: 沈柏伶、鄭心明、張翊萱
+- part2: 張翊萱
+- part3: 鄭心明、沈柏伶
+- readme: 沈柏伶
+- UML diagrams: 沈柏伶
+- reflection: 沈柏伶、鄭心明、張翊萱
+- demo slides: 沈柏伶、鄭心明、張翊萱
