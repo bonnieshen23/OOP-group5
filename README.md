@@ -1,10 +1,13 @@
-# Group Project Setup Guide
+# Group Project Guide
 
-## Project Content
+## Project Overview
 - Gymnasium v1.2.2
 - Part1 Sample Code
-- Part2 Sample Code & Project Code
-- Part3 Sample Code & Project Code
+  Traing and testing learning agent
+- Part2 Project Code
+  Avoidance of Ice Holes with Q-learning
+- Part3 Project Code
+  Machine Learning in Ice Hockey: Competing Against Humans
   
 ## Installation
 
@@ -26,32 +29,6 @@ pip install -e .
 pip install "gymnasium[classic_control]"
 pip install matplotlib
 ```
-
----
-
-## ✅ Verification
-
-Run the following command to verify that the installation is successful:
-
-```bash
-% pip list
-```
-
-Sample Output from MacOS:
-
-```
-Package              Version Editable project location
--------------------- ------- --------------------------------------------
-cloudpickle          3.1.2
-Farama-Notifications 0.0.4
-gymnasium            1.2.2   ./group_project/Gymnasium
-numpy                2.3.5
-pip                  24.3.1
-typing_extensions    4.15.0
-```
-
-If your output matches the above (or is similar), your environment is correctly configured.
-
 ---
 ## 🚀 Running the Final Project
 ### **Part 1: Mountain Car**
@@ -78,4 +55,13 @@ Execute the custom OOP environment:
 ```bash
 python oop_project_env.py
 ```
+## Dependencies
+wait for revising
 
+## Contribution list
+- part2 張翊萱
+- part3 鄭心明、沈柏伶
+- readme 沈柏伶
+- UML diagrams 沈柏伶
+- reflection 沈柏伶、鄭心明、張翊萱
+- demo slides 沈柏伶、鄭心明、張翊萱
