@@ -3,8 +3,8 @@
 ## Project Content
 - Gymnasium v1.2.2
 - Part1 Sample Code
-- Part2 Sample Code
-- Part3 Sample Code
+- Part2 Sample Code & Project Code
+- Part3 Sample Code & Project Code
   
 ## Installation
 
@@ -13,7 +13,8 @@
 python -m venv .venv
 
 # 2. Activate the virtual environment
-source .venv/bin/activate
+Windows: .venv\Scripts\activate
+MacOS: source .venv/bin/activate
 
 # 3. Navigate to the Gymnasium directory
 cd group_project/Gymnasium
@@ -52,9 +53,7 @@ typing_extensions    4.15.0
 If your output matches the above (or is similar), your environment is correctly configured.
 
 ---
-
-## 🚀 Running the Project
-
+## 🚀 Running the Final Project
 ### **Part 1: Mountain Car**
 Train and test the reinforcement learning agent:
 
@@ -73,19 +72,10 @@ Run the Frozen Lake environment:
 python frozen_lake.py
 ```
 
-### **Part 3: OOP Project Environment**
+### **Part 3: OOP Project Environment** //wait for revising
 Execute the custom OOP environment:
 
 ```bash
 python oop_project_env.py
 ```
 
-**Tip:**  
-If you’re on Windows, replace  
-```bash
-source .venv/bin/activate
-```  
-with  
-```bash
-.venv\Scripts\activate
-```
