@@ -2,12 +2,9 @@
 
 ## Project Overview
 - Gymnasium v1.2.2
-- Part1 Sample Code
-  Traing and testing learning agent
-- Part2 Project Code
-  Avoidance of Ice Holes with Q-learning
-- Part3 Project Code
-  Machine Learning in Ice Hockey: Competing Against Humans
+- Part1 - Traing and testing learning agent
+- Part2 - Avoidance of Ice Holes with Q-learning
+- Part3 - Machine Learning in Ice Hockey and Competing Against Humans
   
 ## Installation
 
@@ -59,9 +56,9 @@ python oop_project_env.py
 wait for revising
 
 ## Contribution list
-- part2 張翊萱
-- part3 鄭心明、沈柏伶
-- readme 沈柏伶
-- UML diagrams 沈柏伶
-- reflection 沈柏伶、鄭心明、張翊萱
-- demo slides 沈柏伶、鄭心明、張翊萱
+part2: 張翊萱
+part3: 鄭心明、沈柏伶
+readme: 沈柏伶
+UML diagrams: 沈柏伶
+reflection: 沈柏伶、鄭心明、張翊萱
+demo slides: 沈柏伶、鄭心明、張翊萱
