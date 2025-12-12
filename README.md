@@ -13,8 +13,10 @@
 python -m venv .venv
 
 # 2. Activate the virtual environment
-Windows: .venv\Scripts\activate
-MacOS: source .venv/bin/activate
+#Windows
+.venv\Scripts\activate
+#MacOS
+source .venv/bin/activate
 
 # 3. Navigate to the Gymnasium directory
 cd group_project/Gymnasium
@@ -58,8 +60,8 @@ python air_hockey.py
 
 ```
 ## Dependencies
-air_hockey_env.py
-Gymnasium
+- air_hockey_env.py
+- Gymnasium
 
 ## Contribution list
 - part2: 張翊萱
