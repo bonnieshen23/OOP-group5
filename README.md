@@ -46,14 +46,20 @@ Run the Frozen Lake environment:
 python frozen_lake.py
 ```
 
-### **Part 3: OOP Project Environment** //wait for revising
-Execute the custom OOP environment:
+### **Part 3: OOP Project Environment**
+Execute air hockey:
 
 ```bash
-python oop_project_env.py
+python air_hockey.py
+#For learning mode
+1
+#For testing and playing mode
+2
+
 ```
 ## Dependencies
-wait for revising
+air_hockey_env.py
+Gymnasium
 
 ## Contribution list
 - part2: 張翊萱
