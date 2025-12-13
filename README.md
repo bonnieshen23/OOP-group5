@@ -60,8 +60,11 @@ python air_hockey.py
 
 ```
 ## Dependencies
-- air_hockey_env.py
-- Gymnasium
+- gymnasium
+- stable-baselines3
+- pygame
+- pymunk
+- numpy
 
 ## Contribution list
 - part2: 張翊萱
