@@ -88,7 +88,7 @@ class AirHockeyEnv(gym.Env):
         elif ball_y > self.height: # 球進入下方球門
             reward = 10
             terminated = True
-        if ball_y < self.height / 2: # 把球壓在對方半場
+        if ball_y > self.height / 2: # 把球壓在對方半場
             reward += 0.001
 
         # 防止死循環
@@ -265,4 +265,5 @@ class AirHockeyEnv(gym.Env):
         """關閉視窗與資源釋放"""
         if self.screen:
             pygame.quit()
+
             self.screen = None
