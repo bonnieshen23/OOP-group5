@@ -83,10 +83,10 @@ class AirHockeyEnv(gym.Env):
 
         # 贏了給AI reward
         if ball_y < 0: #球進入上方球門
-            reward = 10 
+            reward = -10 
             terminated = True
         elif ball_y > self.height: # 球進入下方球門
-            reward = -10
+            reward = 10
             terminated = True
         if ball_y < self.height / 2: # 把球壓在對方半場
             reward += 0.001
