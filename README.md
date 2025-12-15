@@ -3,7 +3,7 @@
 ## Project Overview
 - Gymnasium v1.2.2
 - Part1 - Traing and testing learning agent
-- Part2 - Avoidance of Ice Holes with Q-learning
+- Part2 - Avoidance of Ice Holes with Expected SARSA
 - Part3 - Machine Learning in Ice Hockey and Competing Against Humans
   
 ## Installation
