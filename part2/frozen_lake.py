@@ -34,7 +34,7 @@ def print_success_rate(rewards_per_episode):
     return success_rate
 
 def run(episodes, is_training=True, render=False, show_result = True):
-    env = gym.make('FrozenLake-v1', map_name="8x8", is_slippery=False, render_mode='human' if render else None)
+    env = gym.make('FrozenLake-v1', map_name="8x8", is_slippery=True, render_mode='human' if render else None)
 
     if(is_training):
         q = np.ones((env.observation_space.n, env.action_space.n)) * 0.001 # init a 64 x 4 array with value of 0.001
