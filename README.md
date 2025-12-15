@@ -26,7 +26,7 @@ pip install -e .
 
 # 5. Install additional dependencies
 pip install "gymnasium[classic_control]"
-pip install matplotlib
+pip install matplotlib stable-baselines3 pygame pymunk numpy
 ```
 ---
 ## 🚀 Running the Final Project
