@@ -1,10 +1,10 @@
-# Group Project Setup Guide
+# Group Project Guide
 
-## Project Content
+## Project Overview
 - Gymnasium v1.2.2
-- Part1 Sample Code
-- Part2 Sample Code & Project Code
-- Part3 Sample Code & Project Code
+- Part1 - Traing and testing learning agent
+- Part2 - Avoidance of Ice Holes with Expected SARSA
+- Part3 - Machine Learning in Ice Hockey and Competing Against Humans
   
 ## Installation
 
@@ -13,8 +13,10 @@
 python -m venv .venv
 
 # 2. Activate the virtual environment
-Windows: .venv\Scripts\activate
-MacOS: source .venv/bin/activate
+#Windows
+.venv\Scripts\activate
+#MacOS
+source .venv/bin/activate
 
 # 3. Navigate to the Gymnasium directory
 cd group_project/Gymnasium
@@ -24,34 +26,8 @@ pip install -e .
 
 # 5. Install additional dependencies
 pip install "gymnasium[classic_control]"
-pip install matplotlib
+pip install matplotlib stable-baselines3 pygame pymunk numpy
 ```
-
----
-
-## ✅ Verification
-
-Run the following command to verify that the installation is successful:
-
-```bash
-% pip list
-```
-
-Sample Output from MacOS:
-
-```
-Package              Version Editable project location
--------------------- ------- --------------------------------------------
-cloudpickle          3.1.2
-Farama-Notifications 0.0.4
-gymnasium            1.2.2   ./group_project/Gymnasium
-numpy                2.3.5
-pip                  24.3.1
-typing_extensions    4.15.0
-```
-
-If your output matches the above (or is similar), your environment is correctly configured.
-
 ---
 ## 🚀 Running the Final Project
 ### **Part 1: Mountain Car**
@@ -72,10 +48,28 @@ Run the Frozen Lake environment:
 python frozen_lake.py
 ```
 
-### **Part 3: OOP Project Environment** //wait for revising
-Execute the custom OOP environment:
+### **Part 3: OOP Project Environment**
+Execute air hockey:
 
 ```bash
-python oop_project_env.py
-```
+python air_hockey.py
+#For learning mode
+1
+#For testing and playing mode
+2
 
+```
+## Dependencies
+- gymnasium
+- stable-baselines3
+- pygame
+- pymunk
+- numpy
+
+## Contribution list
+- part2: 張翊萱
+- part3: 鄭心明、沈柏伶
+- readme: 沈柏伶
+- UML diagrams: 沈柏伶
+- reflection: 沈柏伶、鄭心明、張翊萱
+- demo slides: 沈柏伶、鄭心明、張翊萱
